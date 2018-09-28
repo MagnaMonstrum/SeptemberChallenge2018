@@ -55,7 +55,11 @@ img.marilyn1{
     width: 49%;
     float:right;
 }
+@media only screen and (max-width: 600px){
+img {
 
+}
+}
 div.vid {
     text-align: center;
 }
@@ -80,6 +84,7 @@ div.footer {
     width: 100vw;
 
 }
+
 
 
 td.tabel {
