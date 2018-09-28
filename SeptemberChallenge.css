@@ -31,11 +31,29 @@ li a {
 }
 
 div.images {
+
+    width: 100%;
+    padding: 5px;
     text-align: center;
+    height: 80%;
+
 }
 
+
 img {
+    width:100%;
+
+    height: auto;
     padding-right: 5px;
+}
+img.marilyn{
+    width: 49%;
+    float:left;
+
+}
+img.marilyn1{
+    width: 49%;
+    float:right;
 }
 
 div.vid {
@@ -49,6 +67,7 @@ h2 {
 
 div.info {
     text-align: left;
+    float: bottom;
 }
 
 table {
@@ -61,6 +80,7 @@ div.footer {
     width: 100vw;
 
 }
+
 
 td.tabel {
     width: 100vw;
@@ -80,3 +100,8 @@ table.footer {
     width: 100vw;
     background-color: #763965;
 }
+table {
+    max-width: 1200px;
+}
+
+
